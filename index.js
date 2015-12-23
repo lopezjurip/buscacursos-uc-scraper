@@ -10,8 +10,10 @@ const generator = require('./lib/initials-generator');
 function all(callback) {
   getValidTwoInitials((err, r2s) => {
     if (err) return callback(err);
+    r2s = r2s.map(r => r.initials);
     getValidThreeInitials(r2s, (err, r3s) => {
       if (err) return callback(err);
+      r3s = r3s.map(r => r.initials);
       deepSearch(r3s, callback);
     });
   });
@@ -23,11 +25,9 @@ function getValidTwoInitials(callback) {
 }
 
 function getValidThreeInitials(twoInitials, callback) {
-  const initials = twoInitials.map(i => i.initials);
-
   const three = new MySet();
-  initials.forEach(a => {
-    initials.forEach(b => {
+  twoInitials.forEach(a => {
+    twoInitials.forEach(b => {
       if (a[1] === b[0]) {
         three.add(`${a[0]}${a[1]}${b[1]}`);
       }
@@ -38,9 +38,7 @@ function getValidThreeInitials(twoInitials, callback) {
 }
 
 function deepSearch(threeInitials, callback) {
-  const initials = threeInitials.map(i => i.initials);
-
-  async.mapLimit(initials, 5, recursiveHandler, function(err, results) {
+  async.mapLimit(threeInitials, 5, recursiveHandler, function(err, results) {
     if (err) callback(err);
     else callback(null, util.flatten(results));
   });
@@ -65,6 +63,7 @@ function recursiveHandler(initials, callback) {
   }).catch(err => callback(err));
 }
 
+exports.generator = generator;
 exports.getValidTwoInitials = getValidTwoInitials;
 exports.getValidThreeInitials = getValidThreeInitials;
 exports.deepSearch = deepSearch;
