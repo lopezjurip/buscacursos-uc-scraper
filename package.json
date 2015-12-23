@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "async": "^1.5.0",
-    "buscacursos-uc": "^1.0.2",
+    "buscacursos-uc": "^1.1.0",
     "collections": "^1.2.4"
   },
   "devDependencies": {},
