@@ -1,12 +1,3 @@
-# BuscaCursos Scraper
-
-This proyect uses [mrpatiwi/buscacursos-uc](https://github.com/mrpatiwi/buscacursos-uc) and requires Node 5.3.x or newer.
-
-> Use by your own responsability, because this creates heavy load on http://buscacursos.uc.cl
-
-## Usage
-
-```javascript
 'use strict';
 
 const fs = require('fs');
@@ -22,5 +13,3 @@ scraper.all(function(err, courses) {
     console.log('success!');
   });
 });
-
-```

@@ -9,7 +9,9 @@ const generator = require('./lib/initials-generator');
 
 function all(callback) {
   getValidTwoInitials((err, r2s) => {
+    if (err) return callback(err);
     getValidThreeInitials(r2s, (err, r3s) => {
+      if (err) return callback(err);
       deepSearch(r3s, callback);
     });
   });
@@ -67,9 +69,3 @@ exports.getValidTwoInitials = getValidTwoInitials;
 exports.getValidThreeInitials = getValidThreeInitials;
 exports.deepSearch = deepSearch;
 exports.all = all;
-
-all(function(err, courses) {
-  if (err) return console.error(err);
-  console.log('Count:', courses.length);
-  console.log(JSON.stringify(courses.map(course => course.initials + ' ' + course.name), null ,4));
-});
