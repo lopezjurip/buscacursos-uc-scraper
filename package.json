@@ -1,11 +1,11 @@
 {
   "name": "buscacursos-uc-scraper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "dependencies": {
     "async": "^1.5.0",
-    "buscacursos-uc": "^1.1.0",
+    "buscacursos-uc": "^1.1.1",
     "collections": "^1.2.4"
   },
   "devDependencies": {},

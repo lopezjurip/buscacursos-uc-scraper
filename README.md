@@ -4,13 +4,25 @@ This proyect uses [mrpatiwi/buscacursos-uc](https://github.com/mrpatiwi/buscacur
 
 > Use by your own responsability, because this creates heavy load on http://buscacursos.uc.cl
 
+## Install
+
+This shall not be published to `npm`.
+
+To install as a dependency, edit the `package.json` and add:
+
+```json
+"dependencies": {
+    "buscacursos-uc-scraper": "git://github.com/mrpatiwi/buscacursos-uc-scraper.git"
+}
+```
+
 ## Usage
 
 ```javascript
 'use strict';
 
 const fs = require('fs');
-const scraper = require('./index');
+const scraper = require('buscacursos-uc-scraper');
 
 scraper.all(function(err, courses) {
   if (err) return console.error(err);
