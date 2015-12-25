@@ -45,15 +45,10 @@ function deepSearch(threeInitials, callback) {
 }
 
 function recursiveHandler(initials, callback) {
-  const newInitials = [
-    initials + '0',
-    initials + '1',
-    initials + '2',
-    initials + '3'
-  ];
   buscacursos.fetch(util.querizer(initials)).then(courses => {
-    // console.log(temp, courses.length);
+    // console.log(initials, courses.length);
     if (courses.length >= 50) {
+      const newInitials = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(n => initials + n);
       async.mapLimit(newInitials, newInitials.length, recursiveHandler, function(err, r2) {
         callback(err, r2);
       });
