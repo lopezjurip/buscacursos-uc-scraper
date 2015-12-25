@@ -1,5 +1,8 @@
 # BuscaCursos UC Scraper
 
+[![dependencies][dependencies-image]][dependencies-url] [![dev-dependencies][dev-dependencies-image]][dev-dependencies-url]
+
+
 This proyect uses [mrpatiwi/buscacursos-uc](https://github.com/mrpatiwi/buscacursos-uc) and requires Node 5.3.x or newer.
 
 > Use by your own responsability, because this creates heavy load on http://buscacursos.uc.cl
@@ -63,3 +66,8 @@ scraper.deepSearch(['IIC', 'MAT'], function(err, courses) {
   });
 });
 ```
+
+[dependencies-image]: https://david-dm.org/mrpatiwi/buscacursos-uc-scraper.svg
+[dependencies-url]: https://david-dm.org/mrpatiwi/buscacursos-uc-scraper
+[dev-dependencies-image]: https://david-dm.org/mrpatiwi/buscacursos-uc-scraper/dev-status.svg
+[dev-dependencies-url]: https://david-dm.org/mrpatiwi/buscacursos-uc-scraper#info=devDependencies
