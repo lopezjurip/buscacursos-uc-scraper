@@ -1,17 +1,15 @@
 {
   "name": "buscacursos-uc-scraper",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "dependencies": {
     "async": "^1.5.0",
-    "buscacursos-uc": "^1.1.1",
+    "buscacursos-uc": "^2.0.0",
     "collections": "^1.2.4"
   },
   "devDependencies": {},
-  "scripts": {
-    "start": "node index.js"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mrpatiwi/buscacursos-uc-scraper.git"
