@@ -68,3 +68,4 @@ exports.getValidTwoInitials = getValidTwoInitials;
 exports.getValidThreeInitials = getValidThreeInitials;
 exports.deepSearch = deepSearch;
 exports.all = all;
+exports.initials = require('./initials');
