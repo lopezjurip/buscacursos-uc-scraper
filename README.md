@@ -1,4 +1,4 @@
-# BuscaCursos Scraper
+# BuscaCursos UC Scraper
 
 This proyect uses [mrpatiwi/buscacursos-uc](https://github.com/mrpatiwi/buscacursos-uc) and requires Node 5.3.x or newer.
 
