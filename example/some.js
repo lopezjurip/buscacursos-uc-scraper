@@ -3,7 +3,7 @@
 const fs = require('fs');
 const scraper = require('../index');
 
-scraper.deepSearch(['IIC', 'MAT'], function(err, courses) {
+scraper.deepSearch(['IIC'], { year: 2015, period: 2 }, function(err, courses) {
   if (err) return console.error(err);
 
   console.log('Count:', courses.length);

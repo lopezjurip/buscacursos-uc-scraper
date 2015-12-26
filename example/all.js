@@ -7,7 +7,7 @@ const scraper = require('../index');
 // Also, creates heavy load on the server, use with caution.
 
 /*
-scraper.all(function(err, courses) {
+scraper.all({ year: 2016, period: 1}, function(err, courses) {
   if (err) return console.error(err);
 
   console.log('Count:', courses.length);
@@ -22,7 +22,7 @@ scraper.all(function(err, courses) {
 // Recomended:
 const initials = scraper.initials;
 
-scraper.deepSearch(initials, function(err, courses) {
+scraper.deepSearch(initials, { year: 2016, period: 1}, function(err, courses) {
   if (err) return console.error(err);
 
   console.log('Count:', courses.length);
