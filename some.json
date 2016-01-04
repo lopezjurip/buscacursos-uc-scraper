@@ -1,0 +1,674 @@
+[
+    {
+        "year": 2016,
+        "period": 1,
+        "NRC": 10293,
+        "initials": "AGF201",
+        "droppable": true,
+        "english": false,
+        "section": 1,
+        "specialApproval": false,
+        "name": "Fruticultura",
+        "teachers": [
+            {
+                "name": "Martiz Johanna",
+                "photoURL": "http://buscacursos.uc.cl/getFotoProfe.db.php?nombre=Martiz%20Johanna&semestre=2016-1&sigla=AGF201&seccion=1"
+            }
+        ],
+        "credits": 10,
+        "vacancy": {
+            "total": 45,
+            "available": 5
+        },
+        "schedule": {
+            "CAT": {
+                "modules": {
+                    "M": [
+                        2
+                    ],
+                    "J": [
+                        2
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            },
+            "AYUD": {
+                "modules": {
+                    "J": [
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            }
+        },
+        "school": "Agronomia E Ing. Forestal",
+        "information": "El curso entrega información de la situación y potencialidad de la fruticultura chilena. Se entrega la base científica y técnica para enfrentarse a la plantación y manejo de huertos frutales.",
+        "requisites": {
+            "requirements": [
+                {
+                    "prerequisites": [
+                        "AGL111",
+                        "AGL112",
+                        "AGL210"
+                    ],
+                    "corequisites": []
+                }
+            ],
+            "relation": null,
+            "restrictions": [],
+            "equivalences": [
+                "AAF201",
+                "AGC1155"
+            ]
+        }
+    },
+    {
+        "year": 2016,
+        "period": 1,
+        "NRC": 10302,
+        "initials": "AGF201",
+        "droppable": true,
+        "english": false,
+        "section": 2,
+        "specialApproval": false,
+        "name": "Fruticultura",
+        "teachers": [
+            {
+                "name": "Ayala Chita",
+                "photoURL": "http://buscacursos.uc.cl/getFotoProfe.db.php?nombre=Ayala%20Chita&semestre=2016-1&sigla=AGF201&seccion=2"
+            },
+            {
+                "name": "Bañados Maria",
+                "photoURL": "http://buscacursos.uc.cl/getFotoProfe.db.php?nombre=Ba%C3%B1ados%20Maria&semestre=2016-1&sigla=AGF201&seccion=2"
+            }
+        ],
+        "credits": 10,
+        "vacancy": {
+            "total": 40,
+            "available": 7
+        },
+        "schedule": {
+            "CAT": {
+                "modules": {
+                    "L": [
+                        2
+                    ],
+                    "W": [
+                        2
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            },
+            "AYUD": {
+                "modules": {
+                    "W": [
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            }
+        },
+        "school": "Agronomia E Ing. Forestal",
+        "information": "El curso entrega información de la situación y potencialidad de la fruticultura chilena. Se entrega la base científica y técnica para enfrentarse a la plantación y manejo de huertos frutales.",
+        "requisites": {
+            "requirements": [
+                {
+                    "prerequisites": [
+                        "AGL111",
+                        "AGL112",
+                        "AGL210"
+                    ],
+                    "corequisites": []
+                }
+            ],
+            "relation": null,
+            "restrictions": [],
+            "equivalences": [
+                "AAF201",
+                "AGC1155"
+            ]
+        }
+    },
+    {
+        "year": 2016,
+        "period": 1,
+        "NRC": 10308,
+        "initials": "AGF261",
+        "droppable": true,
+        "english": false,
+        "section": 1,
+        "specialApproval": false,
+        "name": "Tecnologia de la Fruta",
+        "teachers": [
+            {
+                "name": "Kiger Francisco",
+                "photoURL": "http://buscacursos.uc.cl/getFotoProfe.db.php?nombre=Kiger%20Francisco&semestre=2016-1&sigla=AGF261&seccion=1"
+            }
+        ],
+        "credits": 10,
+        "vacancy": {
+            "total": 40,
+            "available": 2
+        },
+        "schedule": {
+            "CAT": {
+                "modules": {
+                    "W": [
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            }
+        },
+        "school": "Agronomia E Ing. Forestal",
+        "information": "El curso aborda los aspectos fundamentales del manejo de post cosecha de las especies frutales.",
+        "requisites": {
+            "requirements": [
+                {
+                    "prerequisites": [
+                        "AAF201"
+                    ],
+                    "corequisites": []
+                },
+                {
+                    "prerequisites": [
+                        "AGC1155"
+                    ],
+                    "corequisites": []
+                },
+                {
+                    "prerequisites": [
+                        "AGF201"
+                    ],
+                    "corequisites": []
+                }
+            ],
+            "relation": null,
+            "restrictions": [],
+            "equivalences": []
+        }
+    },
+    {
+        "year": 2016,
+        "period": 1,
+        "NRC": 10315,
+        "initials": "AGF301",
+        "droppable": true,
+        "english": false,
+        "section": 1,
+        "specialApproval": false,
+        "name": "Vinificacion",
+        "teachers": [
+            {
+                "name": "Pszczolkowski Philippo",
+                "photoURL": "http://buscacursos.uc.cl/getFotoProfe.db.php?nombre=Pszczolkowski%20Philippo&semestre=2016-1&sigla=AGF301&seccion=1"
+            }
+        ],
+        "credits": 10,
+        "vacancy": {
+            "total": 30,
+            "available": 23
+        },
+        "schedule": {
+            "CAT": {
+                "modules": {
+                    "L": [
+                        2
+                    ],
+                    "W": [
+                        2
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            }
+        },
+        "school": "Agronomia E Ing. Forestal",
+        "information": "Curso teórico que busca dar a conocer a los alumnos todos aquellos factores que influyen en la vinificación. Además se pretende incorporar en el alumno todos aquellos criterios que permiten conducir una fermentación controlada según las diferentes formas de vinificación.",
+        "requisites": {
+            "requirements": [
+                {
+                    "prerequisites": [
+                        "AGF202"
+                    ],
+                    "corequisites": []
+                },
+                {
+                    "prerequisites": [
+                        "AGF312"
+                    ],
+                    "corequisites": []
+                }
+            ],
+            "relation": null,
+            "restrictions": [],
+            "equivalences": [
+                "AAF301",
+                "AGF2233"
+            ]
+        }
+    },
+    {
+        "year": 2016,
+        "period": 1,
+        "NRC": 10322,
+        "initials": "AGF302",
+        "droppable": true,
+        "english": false,
+        "section": 1,
+        "specialApproval": false,
+        "name": "Frutales de Hoja Caduca I",
+        "teachers": [
+            {
+                "name": "Sotomayor Carlos",
+                "photoURL": "http://buscacursos.uc.cl/getFotoProfe.db.php?nombre=Sotomayor%20Carlos&semestre=2016-1&sigla=AGF302&seccion=1"
+            },
+            {
+                "name": "Zoffoli Juan",
+                "photoURL": "http://buscacursos.uc.cl/getFotoProfe.db.php?nombre=Zoffoli%20Juan&semestre=2016-1&sigla=AGF302&seccion=1"
+            }
+        ],
+        "credits": 10,
+        "vacancy": {
+            "total": 50,
+            "available": 0
+        },
+        "schedule": {
+            "CAT": {
+                "modules": {
+                    "V": [
+                        1,
+                        2
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            },
+            "AYUD": {
+                "modules": {
+                    "V": [
+                        4
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            },
+            "TERR": {
+                "modules": {
+                    "V": [
+                        5,
+                        6
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            }
+        },
+        "school": "Agronomia E Ing. Forestal",
+        "information": "Desarrollar profesionalmente el estudio de especies frutales de hoja caduca cultivadas en Chile, en sus aspectos botánicos, fisiológicos, tecnológicos y productivos.",
+        "requisites": {
+            "requirements": [
+                {
+                    "prerequisites": [
+                        "AAF201"
+                    ],
+                    "corequisites": []
+                },
+                {
+                    "prerequisites": [
+                        "AGC1155"
+                    ],
+                    "corequisites": []
+                },
+                {
+                    "prerequisites": [
+                        "AGF201"
+                    ],
+                    "corequisites": []
+                }
+            ],
+            "relation": null,
+            "restrictions": [],
+            "equivalences": [
+                "AAF302",
+                "AGF2210"
+            ]
+        }
+    },
+    {
+        "year": 2016,
+        "period": 1,
+        "NRC": 10333,
+        "initials": "AGF303",
+        "droppable": true,
+        "english": false,
+        "section": 1,
+        "specialApproval": false,
+        "name": "Enologia I",
+        "teachers": [
+            {
+                "name": "Bordeu Edmundo",
+                "photoURL": "http://buscacursos.uc.cl/getFotoProfe.db.php?nombre=Bordeu%20Edmundo&semestre=2016-1&sigla=AGF303&seccion=1"
+            }
+        ],
+        "credits": 10,
+        "vacancy": {
+            "total": 30,
+            "available": 22
+        },
+        "schedule": {
+            "CAT": {
+                "modules": {
+                    "M": [
+                        2
+                    ],
+                    "J": [
+                        2
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            }
+        },
+        "school": "Agronomia E Ing. Forestal",
+        "information": "Los alumnos interesados en seguir la especialidad de viticultura y enología completa deben tomarlo en forma simultánea con Vinificación y con el Taller de Vinificación y Analítica del Vino, en el que se cubren los aspectos prácticos de la química del vino. El curso entrega fundamentos químicos, físico químicos y microbiológicos necesarios para la correcta comprensión de los aspectos aplicados cubiertos por los demás cursos del área enológica.",
+        "requisites": {
+            "requirements": [
+                {
+                    "prerequisites": [
+                        "AGF202"
+                    ],
+                    "corequisites": []
+                },
+                {
+                    "prerequisites": [
+                        "AGF312"
+                    ],
+                    "corequisites": []
+                }
+            ],
+            "relation": null,
+            "restrictions": [],
+            "equivalences": [
+                "AAF303",
+                "AGF2231"
+            ]
+        }
+    },
+    {
+        "year": 2016,
+        "period": 1,
+        "NRC": 10338,
+        "initials": "AGF304",
+        "droppable": true,
+        "english": false,
+        "section": 1,
+        "specialApproval": false,
+        "name": "Frutales de Hoja Persistente",
+        "teachers": [
+            {
+                "name": "Martiz Johanna",
+                "photoURL": "http://buscacursos.uc.cl/getFotoProfe.db.php?nombre=Martiz%20Johanna&semestre=2016-1&sigla=AGF304&seccion=1"
+            }
+        ],
+        "credits": 10,
+        "vacancy": {
+            "total": 70,
+            "available": 8
+        },
+        "schedule": {
+            "CAT": {
+                "modules": {
+                    "M": [
+                        3
+                    ],
+                    "J": [
+                        3
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            },
+            "AYUD": {
+                "modules": {
+                    "M": [
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            }
+        },
+        "school": "Agronomia E Ing. Forestal",
+        "information": "El curso aborda los aspectos fundamentales de la producción de frutales de hoja persistente cultivados en Chile en relación con los aspectos botánicos, fisiológicos, técnicos y productivos.",
+        "requisites": {
+            "requirements": [
+                {
+                    "prerequisites": [
+                        "AAF201"
+                    ],
+                    "corequisites": []
+                },
+                {
+                    "prerequisites": [
+                        "AGC1155"
+                    ],
+                    "corequisites": []
+                },
+                {
+                    "prerequisites": [
+                        "AGF201"
+                    ],
+                    "corequisites": []
+                }
+            ],
+            "relation": null,
+            "restrictions": [],
+            "equivalences": [
+                "AAF304",
+                "AGF2211"
+            ]
+        }
+    },
+    {
+        "year": 2016,
+        "period": 1,
+        "NRC": 10346,
+        "initials": "AGF305",
+        "droppable": true,
+        "english": false,
+        "section": 1,
+        "specialApproval": false,
+        "name": "Taller de Vinificacion y Analitica del Vino",
+        "teachers": [
+            {
+                "name": "Ceppi  de  Lecco Juana",
+                "photoURL": "http://buscacursos.uc.cl/getFotoProfe.db.php?nombre=Ceppi%20%20de%20%20Lecco%20Juana&semestre=2016-1&sigla=AGF305&seccion=1"
+            }
+        ],
+        "credits": 10,
+        "vacancy": {
+            "total": 15,
+            "available": 7
+        },
+        "schedule": {
+            "CAT": {
+                "modules": {
+                    "M": [
+                        4
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            },
+            "LAB": {
+                "modules": {
+                    "W": [
+                        4,
+                        5,
+                        6
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            },
+            "TERR": {
+                "modules": {
+                    "M": [
+                        5,
+                        6
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            }
+        },
+        "school": "Agronomia E Ing. Forestal",
+        "information": "Curso enfocado en enseñar de manera práctica y dinámica los procesos de vinificación del mosto.",
+        "requisites": {
+            "requirements": [
+                {
+                    "prerequisites": [],
+                    "corequisites": [
+                        "AGF301",
+                        "AGF303"
+                    ]
+                }
+            ],
+            "relation": null,
+            "restrictions": [],
+            "equivalences": [
+                "AAF305",
+                "AGF2230"
+            ]
+        }
+    },
+    {
+        "year": 2016,
+        "period": 1,
+        "NRC": 10353,
+        "initials": "AGF307",
+        "droppable": true,
+        "english": false,
+        "section": 1,
+        "specialApproval": false,
+        "name": "Postcosecha de Fruta",
+        "teachers": [
+            {
+                "name": "Zoffoli Juan",
+                "photoURL": "http://buscacursos.uc.cl/getFotoProfe.db.php?nombre=Zoffoli%20Juan&semestre=2016-1&sigla=AGF307&seccion=1"
+            }
+        ],
+        "credits": 10,
+        "vacancy": {
+            "total": 45,
+            "available": 6
+        },
+        "schedule": {
+            "CAT": {
+                "modules": {
+                    "L": [
+                        2
+                    ],
+                    "W": [
+                        2
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            },
+            "AYUD": {
+                "modules": {
+                    "L": [
+                        4
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            },
+            "TERR": {
+                "modules": {
+                    "L": [
+                        5,
+                        6
+                    ]
+                },
+                "location": {
+                    "campus": "San Joaquin",
+                    "place": null
+                }
+            }
+        },
+        "school": "Agronomia E Ing. Forestal",
+        "information": "El curso aborda los principales aspectos físicos y bioquímicos relacionados con la vida del fruto una vez cosechado y las herramientas utilizadas para manejar dichos aspectos.",
+        "requisites": {
+            "requirements": [
+                {
+                    "prerequisites": [
+                        "AGF202"
+                    ],
+                    "corequisites": []
+                },
+                {
+                    "prerequisites": [
+                        "AGF312"
+                    ],
+                    "corequisites": []
+                }
+            ],
+            "relation": null,
+            "restrictions": [],
+            "equivalences": [
+                "AAF307",
+                "AGF2201"
+            ]
+        }
+    }
+]
