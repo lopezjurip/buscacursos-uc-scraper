@@ -26,7 +26,7 @@ function all(options) {
 
 function getValidTwoInitials(options) {
   options.initials = generator(2);
-  return util.tryInitials(options, 5);
+  return util.tryInitials(options, settings.concurrency);
 }
 
 function getValidThreeInitials(twoInitials, options) {
@@ -39,7 +39,7 @@ function getValidThreeInitials(twoInitials, options) {
     });
   });
   options.initials = three.toArray();
-  return util.tryInitials(options, 5);
+  return util.tryInitials(options, settings.concurrency);
 }
 
 function deepSearch(threeInitials, options) {
