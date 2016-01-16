@@ -2,15 +2,15 @@
 
 [![dependencies][dependencies-image]][dependencies-url] [![dev-dependencies][dev-dependencies-image]][dev-dependencies-url]
 
-This proyect uses [mrpatiwi/buscacursos-uc](https://github.com/mrpatiwi/buscacursos-uc) and requires Node 5.3.x or newer.
+This project uses [mrpatiwi/buscacursos-uc](https://github.com/mrpatiwi/buscacursos-uc) and requires Node 5.3.x or newer.
 
-> Use by your own responsability, because this creates heavy load on [http://buscacursos.uc.cl](http://buscacursos.uc.cl)
+> Use by your own responsibility, because this creates heavy load on [http://buscacursos.uc.cl](http://buscacursos.uc.cl)
 
 ## How does it works
 
 When you query [http://buscacursos.uc.cl](http://buscacursos.uc.cl) you can have at most 50 results without be able to get the next results (no pagination).
 
-This works by quering the initials (`MAT`, `LET`, etc) and counting the results, then if the results are more than 50, this perform another ten (recursive) queries like: `MAT0`, `MAT1`, ..., `MAT9`, otherwise just return the results.
+This works by querying the initials (`MAT`, `LET`, etc) and counting the results, then if the results are more than 50, this perform another ten (recursive) queries like: `MAT0`, `MAT1`, ..., `MAT9`, otherwise just return the results.
 
 In shorter words, this performs a kind of *Depth First Search (DFS)*.
 
@@ -60,7 +60,7 @@ Usage:
 const fs = require('fs');
 const scraper = require('buscacursos-uc-scraper');
 
-// Recomended:
+// Recommended:
 // Use known initials to speed the process.
 const initials = scraper.initials;
 

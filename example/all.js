@@ -16,7 +16,7 @@ scraper.all({ year: 2016, period: 1 }).then(courses => {
   });
 }).catch(console.error);
 
-// Recomended:
+// Recommended:
 // const initials = scraper.initials;
 //
 // scraper.deepSearch(initials, { year: 2016, period: 1}, function(err, courses) {
