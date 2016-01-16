@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "bluebird": "^3.1.1",
-    "buscacursos-uc": "^2.0.0",
+    "buscacursos-uc": "^3.0.0",
     "collections": "^3.0.0"
   },
   "devDependencies": {},
