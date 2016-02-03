@@ -4,15 +4,15 @@
 
 This project uses [mrpatiwi/buscacursos-uc](https://github.com/mrpatiwi/buscacursos-uc) and requires Node 5.3.x or newer.
 
-> Use by your own responsibility, because this creates heavy load on [http://buscacursos.uc.cl](http://buscacursos.uc.cl)
+> Use on your own responsibility, because this creates heavy load on [http://buscacursos.uc.cl](http://buscacursos.uc.cl)
 
-## How does it works
+## How it works
 
-When you query [http://buscacursos.uc.cl](http://buscacursos.uc.cl) you can have at most 50 results without be able to get the next results (no pagination).
+When you query [http://buscacursos.uc.cl](http://buscacursos.uc.cl) you can have at most 50 results without being able to get the next results (no pagination).
 
-This works by querying the initials (`MAT`, `LET`, etc) and counting the results, then if the results are more than 50, this perform another ten (recursive) queries like: `MAT0`, `MAT1`, ..., `MAT9`, otherwise just return the results.
+This code works by querying the initials (`MAT`, `LET`, etc) and counting the results, then if the results are more than 50, it performs another ten (recursive) queries like: `MAT0`, `MAT1`, ..., `MAT9`, otherwise it just returns the results.
 
-In shorter words, this performs a kind of *Depth First Search (DFS)*.
+In other words, it performs a kind of *Depth First Search (DFS)*.
 
 ## Install
 
@@ -61,7 +61,7 @@ const fs = require('fs');
 const scraper = require('buscacursos-uc-scraper');
 
 // Recommended:
-// Use known initials to speed the process.
+// Use known initials to speed up the process.
 const initials = scraper.initials;
 
 scraper.deepSearch(initials, { year: 2016, period: 1 }).then(courses => {
@@ -78,7 +78,7 @@ scraper.deepSearch(initials, { year: 2016, period: 1 }).then(courses => {
 // To perform a full search use (rediscover initials):
 //
 // This takes a lot of time to complete.
-// Also, creates heavy load on the server, use with caution.
+// Also, it creates heavy load on the server, use with caution.
 // Big chances of failing:
 //
 // scraper.all({ year: 2016, period: 1 }).then(courses => { ...
